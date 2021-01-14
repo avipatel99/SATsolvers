@@ -1,0 +1,11 @@
+In order to run any solver, an input file instance needs to be fed to the solver.
+Copy/Move the desired instance from the "Input Instancs" folder so that is outside of this folder.
+
+If running a C++ program, e.g. cdclSolver on 4queens.txt, enter the following command in the terminal:
+	
+	./cdclSolver < 4queens.txt
+
+If running one of the python SMT solvers, e.g. slSMT on sl5.txt, enter the following command in the terminal:
+
+	python3 slSMT.py sl5.txt
+
